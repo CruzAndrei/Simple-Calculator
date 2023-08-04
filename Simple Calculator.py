@@ -1,10 +1,4 @@
 #basic math operations
-print("Here are the basic math operation to be used:")
-print("+ ADD")
-print("- SUBTRACT")
-print("* MULTIPLY")
-print("/ DIVIDE")
-
 
 def calcu():
 
@@ -27,4 +21,12 @@ def calcu():
     elif basic_operation == "/":
             data_operation = first_num / second_num
     print(f"Answer: ", + data_operation)
+
 calcu()
+
+#basic math operations
+print("Here are the basic math operation to be used:")
+print("+ ADD")
+print("- SUBTRACT")
+print("* MULTIPLY")
+print("/ DIVIDE")
