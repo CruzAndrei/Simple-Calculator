@@ -13,14 +13,13 @@ def calcu():
 #ADD
     if basic_operation == "+":
         data_operation = first_num + second_num
-    
+        print("The sum of your inputed number is ", data_operation)
 #subtract
     elif basic_operation == "-":
         data_operation = first_num - second_num
 #multiply
     elif basic_operation == "*":
         data_operation = first_num * second_num
-
 #divide
     elif basic_operation == "/":
             data_operation = first_num / second_num
