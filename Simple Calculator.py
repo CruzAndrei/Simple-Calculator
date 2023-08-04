@@ -17,6 +17,7 @@ def calcu():
 #subtract
     elif basic_operation == "-":
         data_operation = first_num - second_num
+        print("The difference of your inputed number is ", data_operation)
 #multiply
     elif basic_operation == "*":
         data_operation = first_num * second_num
