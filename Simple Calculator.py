@@ -8,8 +8,11 @@ print("/ DIVIDE")
 
 def calcu():
 
-first_num = float(input("Enter your first number: "))
-second_num = float(input("Enter your second number: "))
+    first_num = float(input("Enter your first number: "))
+    second_num = float(input("Enter your second number: "))
+
+basic_operation = input("Select operation to be executed: ")
+
 
 #ADD
 #subtract
