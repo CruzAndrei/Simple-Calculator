@@ -47,4 +47,6 @@ while True:
     start_up = input('\n\t\t\t\t\t Press 1 and enter to continue: ')
     print("\n------------------------------------------------------------------------------------------------------------------")
 
+    if start_up == "1":
+        calcu()
     break
