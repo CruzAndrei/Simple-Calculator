@@ -44,4 +44,7 @@ while True:
     print("* MULTIPLY")
     print("/ DIVIDE")
 
+    start_up = input('\n\t\t\t\t\t Press 1 and enter to continue: ')
+    print("\n------------------------------------------------------------------------------------------------------------------")
+
     break
