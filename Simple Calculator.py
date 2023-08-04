@@ -1,11 +1,15 @@
 #basic math operations
 
 def calcu():
-
-    first_num = float(input("Enter your first number: "))
-    second_num = float(input("Enter your second number: "))
-
-    basic_operation = input("Select operation to be executed: ")
+    try:
+        basic_operation = input("Select operation to be executed: ")
+        first_num = float(input("Enter your first number: "))
+        second_num = float(input("Enter your second number: "))
+    except ValueError as Error:
+        print("Invalid number input\n")
+        print("ERROR")
+        print("\nTry Again")
+        return
 #ADD
     if basic_operation == "+":
         data_operation = first_num + second_num
