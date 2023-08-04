@@ -11,10 +11,13 @@ def calcu():
     first_num = float(input("Enter your first number: "))
     second_num = float(input("Enter your second number: "))
 
-basic_operation = input("Select operation to be executed: ")
-
-
+    basic_operation = input("Select operation to be executed: ")
 #ADD
+    if basic_operation == "+":
+        data_operation = first_num + second_num
+    
+    print(f"Answer: ", + data_operation)
+
 #subtract
 #multiply
 #divide
