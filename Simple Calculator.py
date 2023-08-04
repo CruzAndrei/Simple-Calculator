@@ -21,6 +21,8 @@ def calcu():
 #multiply
     elif basic_operation == "*":
         data_operation = first_num * second_num
+        print("The product of your inputed number is ", data_operation)
+
 #divide
     elif basic_operation == "/":
             data_operation = first_num / second_num
