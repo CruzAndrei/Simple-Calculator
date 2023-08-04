@@ -22,12 +22,19 @@ def calcu():
     elif basic_operation == "*":
         data_operation = first_num * second_num
         print("The product of your inputed number is ", data_operation)
-
 #divide
     elif basic_operation == "/":
-            data_operation = first_num / second_num
-    print(f"Answer: ", + data_operation)
-
+            try:
+                data_operation = first_num / second_num
+                print("The quotient of your inputed number is ", data_operation)
+            except ZeroDivisionError as ERROR:
+                print("Second number must not be zero")
+                print("Invalid Equation")
+                print("ERROR")
+                print("Try again")
+                return
+    else:
+        print("Invalid Operation")
 calcu()
 
 #basic math operations
