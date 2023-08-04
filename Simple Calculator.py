@@ -35,11 +35,13 @@ def calcu():
                 return
     else:
         print("Invalid Operation")
-calcu()
 
+while True:
 #basic math operations
-print("Here are the basic math operation to be used:")
-print("+ ADD")
-print("- SUBTRACT")
-print("* MULTIPLY")
-print("/ DIVIDE")
+    print("Here are the basic math operation to be used:")
+    print("+ ADD")
+    print("- SUBTRACT")
+    print("* MULTIPLY")
+    print("/ DIVIDE")
+
+    break
