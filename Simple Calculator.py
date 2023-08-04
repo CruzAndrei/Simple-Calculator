@@ -4,8 +4,16 @@ print("+ ADD")
 print("- SUBTRACT")
 print("* MULTIPLY")
 print("/ DIVIDE")
+
+
+def calcu():
+
+first_num = float(input("Enter your first number: "))
+second_num = float(input("Enter your second number: "))
+
 #ADD
 #subtract
 #multiply
 #divide
 
+calcu()
