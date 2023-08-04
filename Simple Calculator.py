@@ -16,10 +16,13 @@ def calcu():
     if basic_operation == "+":
         data_operation = first_num + second_num
     
-    print(f"Answer: ", + data_operation)
-
 #subtract
+    elif basic_operation == "-":
+        data_operation = first_num - second_num
 #multiply
-#divide
+    elif basic_operation == "*":
+        data_operation = first_num * second_num
 
+#divide
+    print(f"Answer: ", + data_operation)
 calcu()
