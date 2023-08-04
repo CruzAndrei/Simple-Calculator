@@ -49,4 +49,10 @@ while True:
 
     if start_up == "1":
         calcu()
+    else:
+        print("\n\t\t\t\t    Proceed")
+
+    yes_no = input("\nDo you wish to continue? (yes or no): ")
+
+
     break
