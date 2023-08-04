@@ -53,6 +53,8 @@ while True:
         print("\n\t\t\t\t    Proceed")
 
     yes_no = input("\nDo you wish to continue? (yes or no): ")
-
+    if yes_no == "no":
+        print("\n\t\t\t\t       THANKS YOU!")
+        print("\n------------------------------------------------------------------------------------------------------------------")
 
     break
